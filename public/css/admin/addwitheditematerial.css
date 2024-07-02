@@ -1,0 +1,61 @@
+.form-container {
+    background-color: var(--app-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-container .app-content-headerText {
+    color: var(--app-content-main-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: var(--app-content-main-color);
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--app-content-secondary-color);
+    color: var(--app-content-main-color);
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--action-color);
+}
+
+.submit-button {
+    background-color: var(--action-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--action-color-hover);
+}
+.error {
+    color: #8b0000;
+    font-size: 12px;
+}
